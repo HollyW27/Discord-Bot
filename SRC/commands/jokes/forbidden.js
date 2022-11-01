@@ -3,7 +3,7 @@ const{ SlashCommandBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
     .setName('forbidden')
-    .setDescription('posts the forbidden link'),
+    .setDescription('Posts the forbidden link'),
     async execute(interaction, client){
     const message = await interaction.deferReply({
         fetchReply: true
