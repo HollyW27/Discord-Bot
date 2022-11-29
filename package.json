@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "Holly Wilson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "mongoose": "^6.7.1"
+  }
 }

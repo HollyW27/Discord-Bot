@@ -9,7 +9,7 @@ module.exports = {
         .setName('target')
         .setDescription('The member to timeout')
         .setRequired(true))
-    .addIntegerOption(option => 
+    .addIntegerOption(option =>
         option
         .setName('time')
         .setDescription('how long you are timing out')
